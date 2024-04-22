@@ -31,8 +31,3 @@ st.sidebar.title("Select a page")
 
 st.line_chart(data=[1,3,4,2,5,6,9,8])
 
-st.code("a = input('Enter a name')")
-
-st.latex(r'''
-         ar + ar ^ 2 + ar ^ 3 + \cdots + ar ^ n-1 + ar ^ n = \sum_{k=0}^{n-1} ar^k = a \left(\frac{1-r^{n}}{1-r}\right) )
-         ''')
